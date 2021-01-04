@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+ int String_Length(char*);
+ void main() 
+ {
+   char a[100];
+   printf("\nEnter any string : ");
+   gets(a);
+   char b[100];
+   printf("\nEnter any string : ");
+   gets(b);
+   if (String_Length(a)>String_Length(b))
+   {
+       printf("Second");
+   }
+   else if (String_Length(b)>String_Length(a))
+   {
+       printf("First");
+   }
+   else
+   {
+       printf("Equal");
+   }
+}
+Int String_Length(char x[])
+{
+   Int i=0;
+   Int count=0
+  while(x[i]!= ‘\o’)
+   {
+       Count++;
+       I++
+    }
+return count;
+}
